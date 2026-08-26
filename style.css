@@ -1,5 +1,5 @@
 h1{
-    font-size: 50px;
+    font-size: 95px;
     background-color: rgb(255, 231, 255);
     text-align: center;
 
@@ -37,7 +37,7 @@ a{
 }
 
 a:hover{
-    color: rgb(86, 202, 255);
+    color: rgb(222, 154, 65);
 }
 
 
@@ -49,19 +49,25 @@ a:hover{
 }
 
 #directory{
+    margin-top: 50px ;
     text-align:left;
     font-family: Arial, sans-serif;
 
 }
 
 .imagePrint:hover{
-    outline: 5px solid #3498db; 
+    outline: 5px solid rgb(222, 154, 65); 
     /* border: 5px solid red; */
+}
+
+.digi:hover{
+    outline: 5px solid rgb(222, 154, 65); 
 }
 
 .logo{
     text-align: right;
 }
+
 
 
 
