@@ -18,6 +18,14 @@ h1{
     font-family: "gunter", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+h2 {
+    font-family: "gunter", sans-serif;
+    font-size: x-large;
 
 }
 body{
@@ -26,6 +34,7 @@ body{
     text-align: center;
     font-family: Arial, sans-serif;
 }
+
 button{
     background-color: rgb(255, 255, 255);
     
@@ -34,6 +43,7 @@ button{
 a{
     color:rgb(255, 182, 255);
     font-family: Arial, sans-serif;
+    font-size: 20px;
 }
 
 a:hover{
@@ -45,13 +55,16 @@ a:hover{
     text-align:justify;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 20px;
     font-family: Arial, sans-serif;
+    font-size: 20px;
 }
 
 #directory{
-    margin-top: 50px ;
+    margin-top: 30px ;
     text-align:left;
     font-family: Arial, sans-serif;
+
 
 }
 
@@ -66,6 +79,10 @@ a:hover{
 
 .logo{
     text-align: right;
+}
+
+.animationPic{
+
 }
 
 
