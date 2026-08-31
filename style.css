@@ -28,6 +28,27 @@ h1{
 
 }
 
+@media screen and (width < 600px) {
+    html{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width < 678px) {
+
+    #container {
+        display: block;
+    }
+    #container a{
+        font-size: medium;
+    }
+
+    h1{
+        font-size: larger;
+    }
+}
+
 #container{
     display: flex;
     gap: 100px;
