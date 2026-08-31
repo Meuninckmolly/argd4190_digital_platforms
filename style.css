@@ -28,26 +28,79 @@ h1{
 
 }
 
-@media screen and (width < 600px) {
-    html{
-        font-size: 12px;
-    }
+html{
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 5rem);
+}
+
+/* :root {
+    --font-size-h1: clamp(1rem, 5rem +1.5vw, 10rem);
+    --font-size-h2: clamp(1rem, 3rem +1.5vw, 5rem);
+    --font-size-h3: clamp(1rem, 2rem + 1.5vw, 3rem);
+    --font-size-p: clamp(1rem, 1rem + 1vw, 1.5rem);
 
 }
 
-@media screen and (max-width < 678px) {
+h1 {
+    font-size: var(--font-size-h1);
+}
+h2 {
+    font-size: var(--font-size-h2);
+}
+
+h3 {
+    font-size: var(--font-size-h3);
+}
+
+p {
+    font-size: var(--font-size-p);
+} */
+
+@media screen and (width < 600px) {
+:root {
+    --font-size-h1: clamp(1rem, 5rem +1.5vw, 10rem);
+    --font-size-h2: clamp(1rem, 3rem +1.5vw, 5rem);
+    --font-size-h3: clamp(1rem, 2rem + 1.5vw, 3rem);
+    --font-size-p: clamp(1rem, 1rem + 1vw, 1.5rem);
+    --font-size-a: clamp(1rem, 3rem +1.5vw, 5rem);
+
+
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+}
+h2 {
+    font-size: var(--font-size-h2);
+}
+
+h3 {
+    font-size: var(--font-size-h3);
+}
+
+p {
+    font-size: var(--font-size-p);
+}
+
+#container a {
+    font-size: var(--font-size-a);
+
+}
+
+}
+
+/* @media screen and (max-width < 500px) {
 
     #container {
         display: block;
     }
     #container a{
-        font-size: medium;
+        font-size: small;
     }
 
     h1{
         font-size: larger;
     }
-}
+} */
 
 #container{
     display: flex;
