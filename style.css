@@ -137,10 +137,6 @@ p{
     outline: 5px solid #D81B60; 
 }
 
-.logo{
-    text-align: right;
-}
-
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 30px;
