@@ -40,3 +40,27 @@ p{
 html{
     background-color: rgb(255, 253, 229);
 }
+
+@media screen and (max-width: 600px) { 
+    h1 { 
+        font-size: 40px; padding: 10px 20px;    
+        } 
+    #container { 
+        gap: 20px; flex-wrap: wrap; 
+        } 
+    #container a { 
+        font-size: 18px; 
+        } 
+    #gallery { 
+        flex-wrap: wrap; 
+        } 
+    h2 { 
+        font-size: 30px; 
+        } 
+    .description { 
+        margin-left: 20px; margin-right: 20px; font-size: 18px; 
+        } 
+    img { 
+        max-width: 100%; height: auto; 
+        } 
+    }
