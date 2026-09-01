@@ -5,11 +5,17 @@ h1 {
     font-family: "gunter", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding:15px 100px;
+    border-radius: 30px;
+    display: inline-block;
 
 }
 
 #container{
     display: flex;
+    flex-wrap: wrap;
     gap: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -18,8 +24,8 @@ h1 {
 
 #container a{
     font-family: "gunter", sans-serif;
-    font-size: x-large;
-    color: #3E2723;
+    font-size: 30px;
+    color:#3E2723;
 
 }
 
@@ -42,77 +48,44 @@ html{
     background-color: #FCE4EC;
 }
 
-@media screen and (max-width: 600px) { 
-    h1 { 
-        font-size: 40px; padding: 10px 20px;    
-        } 
-    #container { 
-        gap: 20px; flex-wrap: wrap; 
-        } 
-    #container a { 
-        font-size: 18px; 
-        } 
-    #gallery { 
-        flex-wrap: wrap; 
-        } 
-    h2 { 
-        font-size: 30px; 
-        } 
-    .description { 
-        margin-left: 20px; margin-right: 20px; font-size: 18px; 
-        } 
-    img { 
-        max-width: 100%; height: auto; 
-        } 
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+        padding: 10px 20px;
     }
 
-    @media screen and (width < 600px) {
-:root {
-    --font-size-h1: clamp(1rem, 5rem +1.5vw, 10rem);
-    --font-size-h2: clamp(1rem, 3rem +1.5vw, 5rem);
-    --font-size-h3: clamp(1rem, 2rem + 1.5vw, 3rem);
-    --font-size-p: clamp(1rem, 1rem + 1vw, 1.5rem);
-    --font-size-a: clamp(1rem, 3rem +1.5vw, 5rem);
-
-
-}
-
-h1 {
-    font-size: var(--font-size-h1);
-    text-align: center;
-}
-h2 {
-    font-size: var(--font-size-h2);
-    text-align: center;
-}
-
-h3 {
-    font-size: var(--font-size-h3);
-    text-align: center;
-}
-
-p {
-    font-size: var(--font-size-p);
-    text-align: center;
-}
-
-#container a {
-    font-size: var(--font-size-a);
-    text-align: center;
-
-}
-
-#container{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    justify-content: center;
-}
-.animationPic{
-    width: 100%;
-    height: auto;
-  /* width: 800px; */
-  /* max-width: 100%; */
-}
+    #container {
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: center;
     }
+
+    #container a {
+        font-size: 18px;
+    }
+
+    #gallery {
+        flex-wrap: wrap;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .description {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
