@@ -68,22 +68,42 @@ p {
 
 h1 {
     font-size: var(--font-size-h1);
+    text-align: center;
 }
 h2 {
     font-size: var(--font-size-h2);
+    text-align: center;
 }
 
 h3 {
     font-size: var(--font-size-h3);
+    text-align: center;
 }
 
 p {
     font-size: var(--font-size-p);
+    text-align: center;
 }
 
 #container a {
     font-size: var(--font-size-a);
+    text-align: center;
 
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.animationPic{
+    width: 100%;
+    height: auto;
+  /* width: 800px; */
+  /* max-width: 100%; */
 }
 
 }
@@ -104,6 +124,7 @@ p {
 
 #container{
     display: flex;
+    flex-wrap: wrap;
     gap: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -173,9 +194,37 @@ a:hover{
     text-align: right;
 }
 
-.animationPic{
+@media screen and (max-width: 600px) { 
+    h1 { 
+        font-size: 40px; padding: 10px 20px;    
+        } 
+    #container { 
+        gap: 20px; flex-wrap: wrap; 
+        } 
+    #container a { 
+        font-size: 18px; 
+        } 
+    #gallery { 
+        flex-wrap: wrap; 
+        } 
+    h2 { 
+        font-size: 30px; 
+        } 
+    .description { 
+        margin-left: 20px; margin-right: 20px; font-size: 18px; 
+        } 
+    img { 
+        max-width: 100%; height: auto; 
+        } 
+    }
 
-}
+/* .animationPic{
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+  /* width: 800px; */
+  /* max-width: 100%; 
+}*/
 
 
 
