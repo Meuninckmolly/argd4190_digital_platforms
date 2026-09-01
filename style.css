@@ -33,93 +33,6 @@ html{
     background-color: #FCE4EC;
 }
 
-/* :root {
-    --font-size-h1: clamp(1rem, 5rem +1.5vw, 10rem);
-    --font-size-h2: clamp(1rem, 3rem +1.5vw, 5rem);
-    --font-size-h3: clamp(1rem, 2rem + 1.5vw, 3rem);
-    --font-size-p: clamp(1rem, 1rem + 1vw, 1.5rem);
-
-}
-
-h1 {
-    font-size: var(--font-size-h1);
-}
-h2 {
-    font-size: var(--font-size-h2);
-}
-
-h3 {
-    font-size: var(--font-size-h3);
-}
-
-p {
-    font-size: var(--font-size-p);
-} */
-
-/* @media screen and (width < 600px) {
-:root {
-    --font-size-h1: clamp(1rem, 5rem +1.5vw, 10rem);
-    --font-size-h2: clamp(1rem, 3rem +1.5vw, 5rem);
-    --font-size-h3: clamp(1rem, 2rem + 1.5vw, 3rem);
-    --font-size-p: clamp(1rem, 1rem + 1vw, 1.5rem);
-    --font-size-a: clamp(1rem, 3rem +1.5vw, 5rem);
-
-
-}
-
-h1 {
-    font-size: var(--font-size-h1);
-    text-align: center;
-}
-h2 {
-    font-size: var(--font-size-h2);
-    text-align: center;
-}
-
-h3 {
-    font-size: var(--font-size-h3);
-    text-align: center;
-}
-
-p {
-    font-size: var(--font-size-p);
-    text-align: center;
-}
-
-#container a {
-    font-size: var(--font-size-a);
-    text-align: center;
-
-}
-
-#container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    justify-content: center;
-}
-.animationPic{
-    width: 100%;
-    height: auto;
-  /* width: 800px; */
-  /* max-width: 100%; */
-
-
-/* @media screen and (max-width < 500px) {
-
-    #container {
-        display: block;
-    }
-    #container a{
-        font-size: small;
-    }
-
-    h1{
-        font-size: larger;
-    }
-} */
 
 #container{
     display: flex;
@@ -137,10 +50,24 @@ p {
 
 }
 
-#gallery{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    justify-items: center;
+}
+
+#gallery img {
+    width: 300px;
+    height: auto;
+}
+
+#gallery p {
+    text-align: center;
+    font-family: "dolly-new", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
 }
 
 h2 {
@@ -152,7 +79,9 @@ body{
     background-color: #FCE4EC;
     color: #3E2723;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: "dolly-new", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 button{
@@ -170,14 +99,33 @@ a:hover{
     color: #D81B60;
 }
 
+p{
+      text-align:center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;  
+}
+
 
 .description{
     text-align:center;
     margin-left: 70px;
     margin-right: 70px;
     margin-top: 20px;
-    font-family: Arial, sans-serif;
-    font-size: 21px;
+    font-family: "dolly-new", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+
+    background-color: rgb(211, 167, 211);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding:15px 50px;
+    border-radius: 30px;
+    display: inline-block;
 }
 
 .imagePrint:hover{
