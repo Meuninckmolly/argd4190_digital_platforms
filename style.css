@@ -1,6 +1,6 @@
 h1{
     font-size: 70px;
-    background-color: rgb(255, 231, 255);
+    background-color: rgb(211, 167, 211);
     text-align: center;
 
     /* font-family: "Jacquarda Bastarda 9", serif;
@@ -30,6 +30,7 @@ h1{
 
 html{
     font-size: clamp(1rem, 0.75rem + 1.5vw, 5rem);
+    background-color: #FCE4EC;
 }
 
 /* :root {
@@ -134,7 +135,7 @@ p {
 #container a{
     font-family: "gunter", sans-serif;
     font-size: x-large;
-    color:rgb(255, 182, 255);
+    color:#3E2723;
 
 }
 
@@ -150,8 +151,8 @@ h2 {
 
 }
 body{
-    background-color: rgb(255, 253, 229);
-    color: rgb(236, 161, 49);
+    background-color: #FCE4EC;
+    color: #3E2723;
     text-align: center;
     font-family: Arial, sans-serif;
 }
@@ -162,13 +163,13 @@ button{
 }
 
 a{
-    color:rgb(255, 182, 255);
+    color:#D81B60;
     font-family: Arial, sans-serif;
     font-size: 20px;
 }
 
 a:hover{
-    color: rgb(222, 154, 65);
+    color: #D81B60;
 }
 
 
@@ -182,12 +183,12 @@ a:hover{
 }
 
 .imagePrint:hover{
-    outline: 5px solid rgb(222, 154, 65); 
+    outline: 5px solid #D81B60; 
     /* border: 5px solid red; */
 }
 
 .digi:hover{
-    outline: 5px solid rgb(222, 154, 65); 
+    outline: 5px solid #D81B60; 
 }
 
 .logo{

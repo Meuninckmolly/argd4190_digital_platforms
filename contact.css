@@ -1,5 +1,5 @@
 h1 {
-    background-color: rgb(255, 231, 255);
+    background-color: rgb(211, 167, 211);
     text-align: center;
 
     font-family: "gunter", sans-serif;
@@ -19,13 +19,13 @@ h1 {
 #container a{
     font-family: "gunter", sans-serif;
     font-size: x-large;
-    color:rgb(255, 182, 255);
+    color: #3E2723;
 
 }
 
 body{
-    background-color: rgb(255, 253, 229);
-    color: rgb(236, 161, 49);
+    background-color: #FCE4EC;
+    color: #3E2723;
     text-align: center;
     font-family: Arial, sans-serif;
     font-size: 21px;
@@ -39,7 +39,7 @@ p{
     margin-bottom: 30px;
 }
 html{
-    background-color: rgb(255, 253, 229);
+    background-color: #FCE4EC;
 }
 
 @media screen and (max-width: 600px) { 
