@@ -33,7 +33,7 @@ body{
     background-color: #FCE4EC;
     color: #3E2723;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: "dolly-new", sans-serif;
     font-size: 21px;
 
 }
@@ -46,7 +46,7 @@ body{
 }
 
 p{
-    font-size: 21px;
+    font-size: 18px;
     margin-left: 40px;
     margin-right: 40px;
     justify-content: center;
@@ -59,12 +59,40 @@ p{
     border-radius: 30px;
     display: inline-block;
 }
+
+.description{
+    text-align:center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    font-family: "dolly-new", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+
+    background-color: rgb(211, 167, 211);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding:15px 50px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
 #homebutton{
     margin-bottom: 30px;
 }
 html{
     background-color: #FCE4EC;
 }
+
+h3 {
+    font-family: "gunter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 30px;

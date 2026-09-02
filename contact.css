@@ -13,6 +13,13 @@ h1 {
 
 }
 
+h3 {
+    font-family: "gunter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
 #container{
     display: flex;
     flex-wrap: wrap;
@@ -33,12 +40,14 @@ body{
     background-color: #FCE4EC;
     color: #3E2723;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: "dolly-new", sans-serif;
     font-size: 21px;
 
 }
 p{
-    font-size: 21px;
+    font-size: 18px;
+    font-family: "dolly-new", sans-serif;
+
 
 }
 #homebutton{
