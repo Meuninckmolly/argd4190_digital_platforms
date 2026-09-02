@@ -21,6 +21,16 @@ h1 {
     justify-content: center;
 }
 
+#imageGrid1 {
+    display: flex;
+    gap: 10px;
+}
+
+#imageGrid1 img{
+    width: auto;
+    height: 300px;
+}
+
 #container a{
     font-family: "gunter", sans-serif;
     font-size: 30px;
@@ -57,10 +67,39 @@ p{
     margin-bottom: 30px;
 }
 
+
+#imageGrid1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: auto;
+}
+
+#imageGrid2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: auto;
+}
+
+#imageGrid3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: auto;
+}
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 30px;
+        font-size: 25px;
         padding: 10px 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     #container {
@@ -75,22 +114,64 @@ p{
         font-size: 18px;
     }
 
+    #imageGrid1 {
+        flex-wrap: wrap;
+        justify-content: center; 
+        align-items: center; 
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    #imageGrid1 img {
+            width: 300px;
+            height: auto;
+            text-align: center;
+    }
+
+        #imageGrid2 {
+        flex-wrap: wrap;
+        justify-content: center; 
+        align-items: center; 
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    #imageGrid2 img {
+            width: 300px;
+            height: auto;
+            text-align: center;
+    }
+
+        #imageGrid3 {
+        flex-wrap: wrap;
+        justify-content: center; 
+        align-items: center; 
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    #imageGrid3 img {
+            width: 300px;
+            height: auto;
+            text-align: center;
+    }
+
     #gallery {
         flex-wrap: wrap;
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .description {
         margin-left: 20px;
         margin-right: 20px;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     p {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     img {

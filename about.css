@@ -95,7 +95,7 @@ h3 {
 
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 30px;
+        font-size: 25px;
         padding: 10px 20px;
     }
 
@@ -116,21 +116,27 @@ h3 {
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .description {
         margin-left: 20px;
         margin-right: 20px;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     p {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     img {
         max-width: 100%;
         height: auto;
+    }
+
+    .babyme {
+        width: 230px;
+        height: auto;
+
     }
 }
